@@ -1,13 +1,15 @@
-import React, { Component } from 'react'
-import withRoot from '../withRoot.js'
+import React, { Component } from "react";
+import withRoot from "../withRoot.js";
+
+import Button from "./button";
 class App extends Component {
-  render () {
-    return (
-      <div>
-        This is the index.js{' '}
-      </div>
-    )
-  }
+    render() {
+        return (
+            <div>
+                <Button />
+            </div>
+        );
+    }
 }
 
-export default withRoot(App)
+export default withRoot(App);
